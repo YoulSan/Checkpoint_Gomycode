@@ -1,15 +1,107 @@
 body{
     background-color: midnightblue;
+    width: 80%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  /* margin-left: 100px;*/
+  margin-left: auto;
+  margin-right: auto;
 }
 .Pr{
+    margin-top: 0%;
     display: flex;
+    justify-content: center;
+
 }
 nav{
     display: flex;
-    margin: auto;
+    margin-top: 0px;
+   /* background-color: brown;*/
+    border-radius: 50%;
+    height: relative;
 }
 ul{
     display: flex;
     padding: 50px;
     
+}
+li{
+    margin-left: 100px;
+    list-style: none;
+    margin-top: 5px;
+   
+}
+a{
+    text-decoration: none ;
+    color: aquamarine;
+    font-size: 16px;
+}
+a:hover{
+    color: yellow;
+
+}
+.ctnu{
+display: flex;   
+justify-content: center;
+margin-left: 0px; 
+margin-right: 0px;  
+margin-top: 10px; 
+margin-bottom: 15px;
+padding: auto;
+}
+.text{
+    margin-right: 30px;
+}
+h1{
+    color: white;
+    font-size: 45px;
+}
+h3{
+    color: aquamarine;
+   text-align:center;  
+}
+.Image{
+    margin-right: 0px;
+}
+.IMG{
+    border-radius: 50%;
+}
+.princ, .scd{
+       
+    border: 2px solid black; 
+    border-radius: 10%;
+    margin-top: 20px;
+}
+form{
+    align-items: center;
+    margin:auto;
+}
+fieldset{
+    width: 50%;
+    height: relative;
+    margin-bottom: 15px;
+} 
+legend{
+    color: aquamarine;
+    text-align: center;
+}
+label{
+    font-size: 20px;
+}
+input{
+    margin-bottom: 20px ;
+    margin-right: 100px;
+    margin-top: 20px;
+    margin-left: 50px;
+    
+}
+footer{
+    /*background-color: black;*/
+   display: flex;
+   justify-content: center;
+
+}
+a img{
+    border-radius: 50%;
+    margin-left: 50px;
+    margin-bottom: 20px;
 }
